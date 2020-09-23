@@ -1,4 +1,11 @@
 theme: jekyll-theme-minimal
 title: npyu.org
 description: Cheehan Weereratne
+social_media:
+  - name: GitHub
+    site: https://github.com/pockethook
+  - name: LinkedIn
+    site: https://linkedin.com/in/cheehanweereratne
+  - name: Instagram
+    site: https://instagram.com/pockethook
 google_analytics: UA-99851373-2

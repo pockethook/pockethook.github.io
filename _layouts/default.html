@@ -16,7 +16,14 @@
       <header>
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
         
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
+        <p>{{ site.description }}</p>
+        {% if site.social_media %}
+			<p>
+			{% for value in site.social_media %}
+				<a href="{{ value.site }}">{{ value.name }}</a> 
+			{% endfor %}
+			</p>
+		{% endif %}
 
       </header>
       <section>
